@@ -21,7 +21,7 @@ const Navbar = () => {
         },
     ];
     return (
-        <div className="flex items-center justify-between py-4 ">
+        <div className="flex-col flex md:flex-row space-y-5 md:space-y-0 items-center justify-between py-4 ">
             <div className="logo ">ArShakir</div>
             <div className="flex items-center justify-center space-x-4  w-full">
                 {navItems.map((item, index) => {
@@ -52,6 +52,7 @@ const Navbar = () => {
                     );
                 })}
             </div>
+
 
             <div className="flex items-center justify-end space-x-5 ">
                 <Button type="secondary" >Sign in</Button>

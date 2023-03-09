@@ -4,7 +4,7 @@ import Button from './Button';
 
 const Section = (props) => {
     return (
-        <div className="flex items-center justify-between gap-6">
+        <div className="flex flex-col md:flex-row items-center justify-between gap-6">
             <div className="flex flex-col space-y-4">
                 <h1 className="text_heading text-4xl font-semibold">
                     {props.title}

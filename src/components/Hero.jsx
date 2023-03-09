@@ -4,7 +4,7 @@ import profileIcons from "../assets/Logos/profileIconsList.png"
 import Button from './Button'
 const Hero = () => {
     return (
-        <div className="flex items-center justify-between space-x-5 py-10">
+        <div className="flex flex-col md:flex-row items-center justify-between space-x-5 py-10">
             <div className="flex flex-col space-y-4">
                 <h1 className="text_heading text-6xl">
                     Increase your followers on social media
